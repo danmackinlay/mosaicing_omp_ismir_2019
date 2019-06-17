@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+table {
+  border-collapse: collapse;
+}
+td img,th img{
+  width:256px;
+  display:block;
+}
+td,th.source, th.target {
+  border: 1px solid black;
+  padding: 5px;
+}
+th.source {
+    background-color: red;
+    border-bottom: 3px solid black;
+}
+th.target {
+    background-color: blue;
+    border-right: 3px solid black;
+}
+td {
+    background-color: magenta;
+    font-style: italic;
+}
+.datestamp {
+    font-style: italic;
+    font-size: 80%;
+}
+        </style>
+    <title>autocorr synthesis examples</title>
+  </head>
+  <body>
+    <h1>autocorr synthesis examples</h1>
+    <p>Prepared for the paper
+<em>Style transfer using sparse autocorrelograms</em>
+under submission.</p>
+    <table>
+      <thead>
+        <tr>
+          <th />
+          <th />
+          <th colspan="4" class="metaheader source">Source</th>
+        </tr>
+        <tr>
+          <th class="null" />
+          <th class="null" />
+          <th scope="col" class="source">
+            <p>suling.mp3 (source)</p>
+            <audio controls>
+              <source src="./suling.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./suling.png" />
+          </th>
+          <th scope="col" class="source">
+            <p>thumbpiano.mp3 (source)</p>
+            <audio controls>
+              <source src="./thumbpiano.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./thumbpiano.png" />
+          </th>
+          <th scope="col" class="source">
+            <p>trumpetsolo.mp3 (source)</p>
+            <audio controls>
+              <source src="./trumpetsolo.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./trumpetsolo.png" />
+          </th>
+          <th scope="col" class="source">
+            <p>voiceguitar.mp3 (source)</p>
+            <audio controls>
+              <source src="./voiceguitar.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./voiceguitar.png" />
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="4" class="metaheader target">
+            <p>Target</p>
+          </th>
+          <th scope="row" class="target">
+            <p>suling.mp3 (target)</p>
+            <audio controls>
+              <source src="./suling.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./suling.png" />
+          </th>
+          <td></td>
+          <td>
+            <p>thumbpiano_suling_autocorr.mp3 (mosaic)</p>
+            <audio controls>
+              <source src="./thumbpiano_suling_autocorr.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./thumbpiano_suling_autocorr.png" />
+          </td>
+          <td>
+            <p>trumpetsolo_suling_autocorr.mp3 (mosaic)</p>
+            <audio controls>
+              <source src="./trumpetsolo_suling_autocorr.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./trumpetsolo_suling_autocorr.png" />
+          </td>
+          <td>
+            <p>voiceguitar_suling_autocorr.mp3 (mosaic)</p>
+            <audio controls>
+              <source src="./voiceguitar_suling_autocorr.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./voiceguitar_suling_autocorr.png" />
+          </td>
+        </tr>
+        <tr>
+          <th scope="row" class="target">
+            <p>thumbpiano.mp3 (target)</p>
+            <audio controls>
+              <source src="./thumbpiano.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./thumbpiano.png" />
+          </th>
+          <td>
+            <p>suling_thumbpiano_autocorr.mp3 (mosaic)</p>
+            <audio controls>
+              <source src="./suling_thumbpiano_autocorr.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./suling_thumbpiano_autocorr.png" />
+          </td>
+          <td></td>
+          <td>
+            <p>trumpetsolo_thumbpiano_autocorr.mp3 (mosaic)</p>
+            <audio controls>
+              <source src="./trumpetsolo_thumbpiano_autocorr.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./trumpetsolo_thumbpiano_autocorr.png" />
+          </td>
+          <td>
+            <p>voiceguitar_thumbpiano_autocorr.mp3 (mosaic)</p>
+            <audio controls>
+              <source src="./voiceguitar_thumbpiano_autocorr.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./voiceguitar_thumbpiano_autocorr.png" />
+          </td>
+        </tr>
+        <tr>
+          <th scope="row" class="target">
+            <p>trumpetsolo.mp3 (target)</p>
+            <audio controls>
+              <source src="./trumpetsolo.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./trumpetsolo.png" />
+          </th>
+          <td>
+            <p>suling_trumpetsolo_autocorr.mp3 (mosaic)</p>
+            <audio controls>
+              <source src="./suling_trumpetsolo_autocorr.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./suling_trumpetsolo_autocorr.png" />
+          </td>
+          <td>
+            <p>thumbpiano_trumpetsolo_autocorr.mp3 (mosaic)</p>
+            <audio controls>
+              <source src="./thumbpiano_trumpetsolo_autocorr.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./thumbpiano_trumpetsolo_autocorr.png" />
+          </td>
+          <td></td>
+          <td>
+            <p>voiceguitar_trumpetsolo_autocorr.mp3 (mosaic)</p>
+            <audio controls>
+              <source src="./voiceguitar_trumpetsolo_autocorr.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./voiceguitar_trumpetsolo_autocorr.png" />
+          </td>
+        </tr>
+        <tr>
+          <th scope="row" class="target">
+            <p>voiceguitar.mp3 (target)</p>
+            <audio controls>
+              <source src="./voiceguitar.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./voiceguitar.png" />
+          </th>
+          <td>
+            <p>suling_voiceguitar_autocorr.mp3 (mosaic)</p>
+            <audio controls>
+              <source src="./suling_voiceguitar_autocorr.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./suling_voiceguitar_autocorr.png" />
+          </td>
+          <td>
+            <p>thumbpiano_voiceguitar_autocorr.mp3 (mosaic)</p>
+            <audio controls>
+              <source src="./thumbpiano_voiceguitar_autocorr.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./thumbpiano_voiceguitar_autocorr.png" />
+          </td>
+          <td>
+            <p>trumpetsolo_voiceguitar_autocorr.mp3 (mosaic)</p>
+            <audio controls>
+              <source src="./trumpetsolo_voiceguitar_autocorr.mp3" type="audio/mpeg" class="examplecell" />
+            </audio>
+            <img src="./trumpetsolo_voiceguitar_autocorr.png" />
+          </td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+  <h2>Audio recording credits</h2>
+  <p>Recordings are used with licence of their respective creators, and
+may not be further redistributed without permission unless otherwise stated.</p>
+  <ul>
+    <li><code>suling.mp3</code>: Mohammed Dimas Firmansyah</li>
+    <li><code>thumbpiano.mp3</code>: Winter Riddle</li>
+    <li><code>trumpetsolo.mp3</code>: <a href="http://www.mihaisorohan.net/">Mihai Sorohan</a></li>
+    <li><code>voiceguitar.mp3</code>: Emm Collins and James Nichols</li>
+    <li><code>smoothsweep.mp3</code>: Public domain</li>
+  </ul>
+  <p class="datestamp">Last updated<time> 
+    2019-04-13T10:50:40
+</time></p>
+</html>
