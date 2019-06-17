@@ -1,0 +1,46 @@
+# aiohttp>=2.1.0
+# aiomonitor>=0.3.0
+# argh>=0.26.2
+# audiolazy>=0.6
+audioread>=2.1.5
+autograd>=1.2
+decorator>=4.2.1
+ipykernel
+joblib>=0.11
+librosa>=0.6.0
+Markdown>=3.0
+matplotlib>=2.2.0
+mido>=1.2.8
+msgpack-python>=0.5.6
+music21>=4.1.0
+numba>=0.37.0
+numpy>=1.14.1
+pandas>=0.22.0
+pathtools>=0.1.2
+# pescador>=2.0.0
+ptyprocess>=0.5.2
+# PyAudio>=0.2.11
+# pydub>=0.21.0
+# pygtrie>=2.2
+# pysndfile>=0.2.22
+python-dotenv
+# python-rtmidi>=1.1.0
+# pyzmq>=17.0.0
+# redis>=2.10.6
+# requests>=2.18.4
+resampy>=0.2.0
+# sanic>=0.7.0
+scikit-learn>=0.19.1
+# scikits.samplerate>=0.3.3
+scikit-optimize>=0.5.2
+scipy>=1.0.0
+seaborn>=0.8.1
+shortuuid>=0.5.0
+# simplegeneric>=0.8.1
+six>=1.11.0
+# terminaltables>=3.1.0
+# tornado==4.5.3
+# urllib3>=1.22
+uvloop>=0.9.1
+watchdog>=0.8.3
+yattag>=1.10.1
