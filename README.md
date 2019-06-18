@@ -10,3 +10,6 @@ pip install -r requirements.txt
 pip install -e .
 jupyter notebook render_examples.ipynb
 ```
+
+The preprint of the final ISMIR paper is available
+[in this repository](./mosaicing_omp_2019.pdf).
