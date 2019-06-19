@@ -13,7 +13,8 @@ pip install -e .
 jupyter notebook render_examples.ipynb
 ```
 
-The preprint of the final ISMIR paper is available
-[in this repository](./mosaicing_omp_2019.pdf).
+Persistent links:
 
-[Examples are here](./examples/demo_autocorr/index_autocorr.html).
+* [Examples](https://danmackinlay.github.io/mosaicing_omp_ismir_2019/examples/demo_autocorr/index_autocorr.html).
+* [Source](https://github.com/danmackinlay/mosaicing_omp_ismir_2019)
+* [preprint of the ISMIR paper](./mosaicing_omp_2019.pdf).
