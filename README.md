@@ -3,7 +3,7 @@
 Welcome to a messy prototype of the autocorrelation mosaicing code.
 
 This is included as a small gesture towards basic reproducibility and can indeed reproduce the results of the paper.
-I am rewriting it in julia to be faster, because it's much slower than real-time at the moment.
+I am rewriting it to be faster, because, well, it's too slow right now - in particular, slower than real-time.
 
 Install it by running
 
