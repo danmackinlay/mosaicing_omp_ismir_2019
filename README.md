@@ -1,9 +1,9 @@
 # Autocorrelation mosaicing via OMP
 
-Welcome to a messy prototype of the autocorrelation mosaicing code.
+The autocorrelation mosaicing code!
 
 This is included as a small gesture towards basic reproducibility and can indeed reproduce the results of the paper.
-I am rewriting it to be faster, because, well, it's too slow right now - in particular, slower than real-time.
+I am rewriting it to be faster, because, well, it's too slow right now.
 
 Install it by running
 
