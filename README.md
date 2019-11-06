@@ -24,12 +24,12 @@ You can cite this using BibTeX. ([download](./paper.bib)).
 
 ```bibtex
 @inproceedings{MacKinlayMosaic2019,
-  address = {{Delft}},
+  address = {Delft},
   author = {MacKinlay, Daniel},
-  booktitle = {Proceedings of {{ISMIR}}},
+  booktitle = {Proceedings of \{\{ISMIR\}\}},
   language = {en},
   pages = {5},
-  title = {Mosaic {{Style Transfer}} Using {{Sparse Autocorrelograms}}},
+  title = {Mosaic \{\{Style Transfer}} Using \{\{Sparse Autocorrelograms\}\}},
   year = {2019}
 }
 ```
